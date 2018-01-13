@@ -1,0 +1,20 @@
+.input_wrapper{
+    margin: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+#display{
+    height: 400px;
+    width: 600px;
+}
+
+button {
+    margin: 8px;
+    color: #4500ff;
+    height: 25px;
+    width: 60px;
+}

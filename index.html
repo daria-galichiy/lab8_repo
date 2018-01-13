@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Graphic</title>
+        <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+        <script src= "https://cdnjs.cloudflare.com/ajax/libs/flot/0.8.3/jquery.flot.js" ></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="input_wrapper">
+            <label for="from">From:</label>
+            <input type="number" id="from" value="0"/>
+        </div>
+        <div class="input_wrapper">
+            <label for="to">To:</label>
+            <input type="number" id="to" value="15"/>
+        </div>
+        <div class="input_wrapper">
+            <label for="func">Function:</label>
+            <input id="func" value="Math.sin(x)"/>
+        </div>
+        <button id="plot">Plot!</button>
+        <br><br>
+        <div id="display"></div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
